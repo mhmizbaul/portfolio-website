@@ -1,0 +1,181 @@
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    background-color: #EDEDED;
+}
+
+header{
+    padding: 15px;;
+}
+
+.nevigation-bar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.nevigation-manu{
+    margin-left:50%;
+    
+}
+.nevigation-manu a:hover{
+    color: #0978C2; 
+    height: 50px;
+
+}
+.nevigation-manu a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+/* Banar section */
+
+.banner-cover{ 
+    width:100%; 
+    height:600px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.banner-text{ 
+    padding: 150px; 
+    text-align: center;
+    font-size: 40px;
+}
+.banner-text h1{
+    color:#FFC014;
+}
+.banner-text p{
+    color:#6A9949;
+}
+.button-section{
+    width: 150px;
+    height: 50px;
+    background-color:#d4f1f9;
+    border: 0;
+    border-radius: 10px;
+}
+
+.main-section{
+    /* background-image: url(/image/2nd\ image.jpeg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    
+} */
+/* .heder-titel{
+    text-align:start;
+    margin-top: 100px;
+    margin-left: 5%;
+    display: flex;
+   
+}
+.heder-image{
+    margin-left: -40px;
+    margin-top: -40px;
+}
+.heder-titel img{
+    width: 300px;
+    height: 300px;
+}
+.heder-titel h1{
+    color: white;
+    font-size: 30px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+.heder-titel p{
+    display: flex;
+    width: 65%;
+    color: white;
+    font-size: 20px;
+}
+.midol-section{
+    display: flex;  
+    margin-top: 150px;
+}
+.midol-section img{
+    margin-left: 30%;
+    margin-top:0;
+    
+}
+.midol-text{
+    margin-left: 20%;
+    margin-top: 70px;
+    width: 40%;
+    text-align: justify;
+}
+
+/* service section stat */
+.services{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 70px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+
+.service img{
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+}
+.service{
+    width: 320;
+    height: 220px;
+    margin-left: 35px;
+    
+}
+.service-info{
+width: 270px;
+margin-left: 20px;
+margin-right: 10px;
+text-align: justify;
+}
+.service-info h3{
+color: blue;
+font-size: 25px;
+}
+.service-info p{
+    font-size: 20px;
+}
+/* footer section start */
+footer{
+    margin-top: 400px;
+    width: 100%;
+    height: 200px;
+    background-color:black;
+}
+.foter-about{
+    display: flex;
+}
+
+.footer-text p{
+    color: blanchedalmond;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+.footer-icon{
+    margin-left: 70%;
+    margin-top: 100px;
+}
+.fab{
+    color: #FFC014;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.fab:hover{
+    color: #0978C2; 
+}
+.fas{
+    color: #FFC014;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.fas:hover{
+    color: #0978C2; 
+}
